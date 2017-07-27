@@ -5,7 +5,7 @@ const Actors = () => {
   const actorInfo = actors.map(actor =>
     <div>
       <h3>{actor.name}</h3>
-      {actor.movies.map(movie => <ul>{movie}</ul>)}
+      {actor.movies.map(movie => <li>{movie}</li>)}
     </div>
   )
   return (
